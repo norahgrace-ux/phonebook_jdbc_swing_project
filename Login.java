@@ -85,8 +85,8 @@ public class Login extends JFrame {
 
 		        Connection con = DriverManager.getConnection(
 		            "jdbc:oracle:thin:@//127.0.0.1:1521/FREE",
-		            "c##norah",
-		            "norah123"
+		            "your username",
+		            "your password"
 		        );
 
 		        // First check whether Java can see the table
