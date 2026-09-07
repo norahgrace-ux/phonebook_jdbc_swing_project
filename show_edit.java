@@ -81,8 +81,8 @@ public class show_edit extends JFrame {
 
 					Connection con = DriverManager.getConnection(
 						"jdbc:oracle:thin:@//127.0.0.1:1521/FREE",
-						"c##norah",
-						"norah123"
+						"your username",
+						"your password"
 					);
 
 					Statement stmt = con.createStatement();
@@ -179,8 +179,8 @@ public class show_edit extends JFrame {
 
 					Connection con = DriverManager.getConnection(
 						"jdbc:oracle:thin:@//127.0.0.1:1521/FREE",
-						"c##norah",
-						"norah123"
+						"your username",
+						"your password"
 					);
 
 					Statement stmt = con.createStatement();
