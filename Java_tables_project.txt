@@ -1,0 +1,23 @@
+CREATE TABLE Category (
+    category_id NUMBER NOT NULL,
+    category_name VARCHAR2(50) NOT NULL,
+    description VARCHAR2(100)
+);
+
+CREATE TABLE Contact (
+    contact_id NUMBER NOT NULL,
+    name VARCHAR2(50) NOT NULL,
+    email VARCHAR2(100),
+    category_id NUMBER
+);
+
+CREATE TABLE Phone_Number (
+    phone_number VARCHAR2(15) NOT NULL,
+    phone_type VARCHAR2(20),
+    contact_id NUMBER
+);
+
+CREATE TABLE Login (
+    usernm VARCHAR2(25),
+    passwd VARCHAR2(25) NOT NULL
+);
